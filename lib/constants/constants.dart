@@ -1,0 +1,10 @@
+const defaultRecorderIndex = 0;
+const robotRecorderIndex = 1;
+const highPitchRecorderIndex = 2;
+const lowPitchRecorderIndex = 3;
+const echoRecorderIndex = 4;
+const wobbleRecorderIndex = 5;
+const reverseRecorderIndex = 6;
+const loudRecorderIndex = 7;
+const whisperRecorderIndex = 8;
+const extList = ["mp3", "mp4", "aac", "m4a", "wav", "wma"];
