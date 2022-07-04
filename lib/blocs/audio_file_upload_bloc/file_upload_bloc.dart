@@ -1,8 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fun_recorder/blocs/audio_file_upload_bloc/file_upload_event.dart';
 import 'package:fun_recorder/blocs/audio_file_upload_bloc/file_upload_state.dart';
-
-import '../../data/audio_file_upload_repository.dart';
+import 'package:fun_recorder/data/audio_file_upload_repository.dart';
 
 class AudioFileUploadBloc
     extends Bloc<AudioFileUploadEvent, AudioFileUploadState> {

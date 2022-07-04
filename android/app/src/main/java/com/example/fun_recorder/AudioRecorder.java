@@ -78,7 +78,7 @@ public class AudioRecorder {
             return;
         }
         mediaRecorder.start();
-        isRecording = true;
+        setupHandler();
     }
 
     private void setupHandler() {

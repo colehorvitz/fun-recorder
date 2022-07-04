@@ -83,8 +83,8 @@ class _PostRecorderDefaultControlsState
           iconData: CupertinoIcons.music_note_2,
           size: 32,
           onTap: () {},
-          defaultColor: CupertinoColors.systemGrey,
-          activeColor: CupertinoColors.systemGrey3,
+          defaultColor: CupertinoColors.activeBlue,
+          activeColor: CupertinoColors.activeBlue.withOpacity(.7),
         ),
         SizedBox(
           width: 32,
@@ -108,8 +108,8 @@ class _PostRecorderDefaultControlsState
           onTap: () {
             context.read<PostRecorderBloc>().add(PostRecorderFiltersShown());
           },
-          defaultColor: CupertinoColors.systemGrey,
-          activeColor: CupertinoColors.systemGrey3,
+          defaultColor: CupertinoColors.activeBlue,
+          activeColor: CupertinoColors.activeBlue.withOpacity(.7),
         ),
       ],
     );
